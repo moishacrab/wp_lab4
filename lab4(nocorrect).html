@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Additio.html-->
+<HEAD>
+    <TITLE>Программа обчислення двох цілих чисел</TITLE>
+    <SCRIPT LANGUAGE = "JavaScript">
+        var firstNumber, // перший рядок, уведений користувачем
+        secondNumber, // другий рядок, уведений користувачем
+        number1, // перший доданок
+        number2, // другий доданок
+        sum; // сума чисел numberl і number2
+        // читання першого, введеного користувачем числа у формі рядка
+        firstNumber = window.prompt("Уведіть перше ціле число ", "0");
+        // читання другого, введеного користувачем числа у формі рядка
+        secondNumber = window.prompt("Уведіть друге ціле число ", "0");
+        // перетворення даних із строкового типу до цілого типу,
+        number1 = parseInt(firstNumber);
+        number2 = parseInt(secondNumber);
+        // обчислення суми двох чисел
+        sum = number1 + number2;
+        // висновок отриманого результату
+        document.writeln("<H1>Сума чисел дорівнює " + sum + "</H1>");
+    </SCRIPT>
+</HEAD>
+<BODY>
+    <P>Клацніть на кнопці (Обновити) для перезапуску сценарію.
+    </P></BODY>
+</HTML>
+
+
